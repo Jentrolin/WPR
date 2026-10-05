@@ -1,0 +1,36 @@
+.header {
+  background: #EAF4FB;
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 3px solid #2980B9;
+}
+
+.title {
+  color: #2980B9;
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #2C3E50;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: #2980B9;
+}
+
+.active {
+  background: #2980B9;
+  color: #ffffff !important;
+}

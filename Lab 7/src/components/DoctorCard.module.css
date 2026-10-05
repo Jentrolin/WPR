@@ -1,0 +1,82 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #2980B9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.09);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.name {
+  color: #2C3E50;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.specialty {
+  color: #2980B9;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: auto;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.open {
+  background: #d4edda;
+  color: #155724;
+}
+
+.busy {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 14px;
+  background: #2980B9;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #1a5276;
+}

@@ -1,0 +1,17 @@
+:root {
+  --primary: #EAF4FB;
+  --accent: #2980B9;
+  --text: #2C3E50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: var(--text);
+  background-color: #f7f9fa;
+}
